@@ -11,13 +11,25 @@ theme:
     - search.highlight
     - content.code.copy
   palette:
+    # 1. Dark Mode (Default)
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+        
+    # 2. Light Mode (Toggle Option)
     - scheme: default
       primary: indigo
       accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
 
 plugins:
   - search
-  - roamlinks # Converts Zettlr [[wikilinks]] into clickable MkDocs links
+  - roamlinks # Converts [[wikilinks]] into clickable MkDocs links
 
 markdown_extensions:
   - pymdownx.highlight:
