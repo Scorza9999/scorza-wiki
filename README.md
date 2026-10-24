@@ -15,13 +15,13 @@ Built with a zero-bloat, docs-as-code architecture to ensure maximum rendering s
 * **Static Generation:** Pre-compiled via MkDocs Material. Zero server-side rendering or database queries.
 * **CI/CD Pipeline:** Automated HTML minification (`mkdocs-minify-plugin`) running on GitHub Actions. CSS/JS minification when I'll add them.
 * **Delivery:** Hosted on Github Pages, which use Fastly CDN with Brotli/GZip compression.
-* **Performance Metrics (Throttled Mobile):**
+* **Performance Metrics (Lighthouse):**
   * **LCP & FCP:** `0.4s` (lowest: `0.3s`)
   * **Total Blocking Time (TBT):** `0ms`
   * **Cumulative Layout Shift (CLS):** `0`
 
 <details>
-<summary><b>📊 View Lighthouse Baseline Metrics</b></summary>
+<summary><b>View Lighthouse Baseline Metrics</b></summary>
 <br>
 Performance baseline captured on initial deployment:
 <img src="website_performance.png" alt="Lighthouse 100/100 Report showing 0.3s LCP and 0ms TBT" width="600">
