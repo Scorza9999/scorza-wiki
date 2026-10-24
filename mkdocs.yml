@@ -4,6 +4,7 @@ site_author: "scorza"
 
 theme:
   name: material
+  font: false # use system font
   features:
     - navigation.instant
     - navigation.tracking
@@ -30,7 +31,7 @@ theme:
 plugins:
   - search
   - roamlinks # Converts [[wikilinks]] into clickable MkDocs links
-  - minify: 
+  - minify: # minifies the html to make the package smaller
       minify-html: true
       htmlmin_opts:
         remove_comments: true
