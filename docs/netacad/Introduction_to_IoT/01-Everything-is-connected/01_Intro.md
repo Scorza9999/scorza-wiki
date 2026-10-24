@@ -7,13 +7,13 @@ tags:
 ---
 
 # Introduction to IoT
----
+
 ## Core concept:
 Fundamentally, IoT is about data. It's a network which is "made up of many things" 
 
 (a practical example: sensors on a bridge sending live data about its structural integrity)
 
----
+
 
 # Module outline:
 * [[Placeholder]]
