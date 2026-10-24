@@ -1,3 +1,7 @@
+---
+search: 
+    exclude: true
+---
 # Placeholder
 
 Hi there, you found me! 

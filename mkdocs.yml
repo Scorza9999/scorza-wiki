@@ -28,4 +28,4 @@ markdown_extensions:
   - pymdownx.betterem
 
 nav:
-  - Home: README.md
+  - Home: index.md
