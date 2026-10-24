@@ -30,6 +30,10 @@ theme:
 plugins:
   - search
   - roamlinks # Converts [[wikilinks]] into clickable MkDocs links
+  - minify: 
+      minify-html: true
+      htmlmin_opts:
+        remove_comments: true
 
 markdown_extensions:
   - pymdownx.highlight:
